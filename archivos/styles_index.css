@@ -233,6 +233,42 @@ h1 {
     background: rgba(255, 255, 255, 0.2);
 }
 
+.creditos {
+    margin-top: 34px;
+    padding: 26px 28px;
+    border-radius: 8px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(10px);
+}
+
+.creditos h2 {
+    margin-bottom: 10px;
+    color: #fff6c9;
+    font-size: clamp(1.35rem, 2vw, 1.8rem);
+}
+
+.creditos p {
+    color: #eef8ff;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.creditos ul {
+    width: fit-content;
+    margin: 14px auto 0;
+    padding-left: 20px;
+    color: #eef8ff;
+    text-align: left;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+.creditos li::marker {
+    color: #fff6c9;
+}
+
 @media (max-width: 900px) {
     .bloques {
         grid-template-columns: 1fr;
